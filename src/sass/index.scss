@@ -1,0 +1,47 @@
+.search-form {
+    position: fixed;
+    width: 100vw;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.photo-card {
+    margin-top: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.info {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;  
+}
+
+.info-item {
+    color: brown;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.load-more {
+    background-color: aquamarine;
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    font-size: 24px;
+}
